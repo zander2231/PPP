@@ -64,6 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="One\mocks\MockDataServices.cs" />
+    <Compile Include="One\mocks\MockDataServicesBookAccessTest.cs" />
+    <Compile Include="One\mocks\MockDataServicesPatronAccessTest.cs" />
     <Compile Include="One\PatronTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,9 +77,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VS_Object_Mentor\VS_Object_Mentor.csproj">
+    <ProjectReference Include="..\VS_Object_Mentor\Source.csproj">
       <Project>{0b2e586e-46f4-4717-af74-9c1fa05fbb63}</Project>
-      <Name>VS_Object_Mentor</Name>
+      <Name>Source</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +94,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

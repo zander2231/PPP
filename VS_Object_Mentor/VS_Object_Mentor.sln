@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS_Object_Mentor", "VS_Object_Mentor\VS_Object_Mentor.csproj", "{0B2E586E-46F4-4717-AF74-9C1FA05FBB63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source", "VS_Object_Mentor\Source.csproj", "{0B2E586E-46F4-4717-AF74-9C1FA05FBB63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8791A8BE-145E-45A0-8390-AD5D3BB00773}"
 EndProject
