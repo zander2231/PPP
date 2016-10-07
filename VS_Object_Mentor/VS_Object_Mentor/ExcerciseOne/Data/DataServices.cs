@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using VS_Object_Mentor.Models.One;
+using VS_Object_Mentor.ExcerciseOne.Models;
 
-namespace VS_Object_Mentor.App_Data.One
+namespace VS_Object_Mentor.ExcerciseOne.Data
 {
     public interface DataServices
     {

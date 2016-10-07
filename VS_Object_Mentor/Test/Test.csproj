@@ -64,9 +64,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="One\mocks\MockDataServices.cs" />
-    <Compile Include="One\mocks\MockDataServicesBookAccessTest.cs" />
-    <Compile Include="One\mocks\MockDataServicesPatronAccessTest.cs" />
+    <Compile Include="One\CatalogTest.cs" />
+    <Compile Include="One\LibraryBorrowingTest.cs" />
     <Compile Include="One\PatronTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -77,6 +77,9 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\framework\3.4.1.0\net-4.5\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -190,29 +193,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Data\One\DataServices.cs" />
-    <Compile Include="App_Data\One\IsbnDoesNotExistException.cs" />
-    <Compile Include="App_Data\One\PatronDoesNotExistException.cs" />
+    <Compile Include="ExcerciseOne\Catalog.cs" />
+    <Compile Include="ExcerciseOne\CatalogTest.cs" />
+    <Compile Include="ExcerciseOne\Data\DataServices.cs" />
+    <Compile Include="ExcerciseOne\Data\IsbnDoesNotExistException.cs" />
+    <Compile Include="ExcerciseOne\Data\PatronDoesNotExistException.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ExcerciseOne.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="ExcerciseOne\IsbnService.cs" />
+    <Compile Include="ExcerciseOne\Library.cs" />
+    <Compile Include="ExcerciseOne\LibraryBorrowingTest.cs" />
+    <Compile Include="ExcerciseOne\Mocks\MockDataServices.cs" />
+    <Compile Include="ExcerciseOne\Mocks\MockDataServicesBookAccessTest.cs" />
+    <Compile Include="ExcerciseOne\Mocks\MockDataServicesPatronAccessTest.cs" />
+    <Compile Include="ExcerciseOne\PatronTest.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\One\Address.cs" />
-    <Compile Include="Models\One\Book.cs" />
-    <Compile Include="Models\One\BookTitle.cs" />
-    <Compile Include="Models\One\Patron.cs" />
-    <Compile Include="Models\One\Receipt.cs" />
+    <Compile Include="ExcerciseOne\Models\Address.cs" />
+    <Compile Include="ExcerciseOne\Models\Book.cs" />
+    <Compile Include="ExcerciseOne\Models\BookTitle.cs" />
+    <Compile Include="ExcerciseOne\Models\Patron.cs" />
+    <Compile Include="ExcerciseOne\Models\Receipt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -278,7 +289,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\ExcerciseOne\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

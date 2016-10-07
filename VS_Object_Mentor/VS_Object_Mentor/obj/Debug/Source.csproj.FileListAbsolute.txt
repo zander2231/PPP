@@ -80,3 +80,5 @@ C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\bin\Microsoft.Owin.Sec
 C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\obj\Debug\Source.csprojResolveAssemblyReference.cache
 C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\obj\Debug\VS_Object_Mentor.dll
 C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\obj\Debug\VS_Object_Mentor.pdb
+C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\bin\nunit.framework.dll
+C:\Users\alex\codes\PPP\VS_Object_Mentor\VS_Object_Mentor\bin\nunit.framework.xml
