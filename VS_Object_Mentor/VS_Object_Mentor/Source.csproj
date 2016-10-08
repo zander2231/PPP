@@ -213,6 +213,34 @@
     <Compile Include="ExcerciseOne\Mocks\MockDataServicesBookAccessTest.cs" />
     <Compile Include="ExcerciseOne\Mocks\MockDataServicesPatronAccessTest.cs" />
     <Compile Include="ExcerciseOne\PatronTest.cs" />
+    <Compile Include="ExcerciseTwo\BookCatalog.cs" />
+    <Compile Include="ExcerciseTwo\BookCatalogTest.cs" />
+    <Compile Include="ExcerciseTwo\BookCatalogWhenEmptyTest.cs" />
+    <Compile Include="ExcerciseTwo\BookCatalogWithOneCopyTest.cs" />
+    <Compile Include="ExcerciseTwo\Data\DataServices.cs" />
+    <Compile Include="ExcerciseTwo\Data\IsbnDoesNotExistException.cs" />
+    <Compile Include="ExcerciseTwo\Data\PatronDoesNotExistException.cs" />
+    <Compile Include="ExcerciseTwo\Library.cs" />
+    <Compile Include="ExcerciseTwo\LibraryBorrowingTest.cs" />
+    <Compile Include="ExcerciseTwo\LibraryReturnCopyTest.cs" />
+    <Compile Include="ExcerciseTwo\Mocks\MockDataServices.cs" />
+    <Compile Include="ExcerciseTwo\Mocks\MockDataServicesBookAccessTest.cs" />
+    <Compile Include="ExcerciseTwo\Mocks\MockDataServicesPatronAccessTest.cs" />
+    <Compile Include="ExcerciseTwo\Mocks\MockTimeSource.cs" />
+    <Compile Include="ExcerciseTwo\Models\BookCopy.cs" />
+    <Compile Include="ExcerciseTwo\Models\BookTitle.cs" />
+    <Compile Include="ExcerciseTwo\Models\Patron.cs" />
+    <Compile Include="ExcerciseTwo\Models\PatronTest.cs" />
+    <Compile Include="ExcerciseTwo\Models\Receipt.cs" />
+    <Compile Include="ExcerciseTwo\Money.cs" />
+    <Compile Include="ExcerciseTwo\MoneyTest.cs" />
+    <Compile Include="ExcerciseTwo\PrinterUsageTest.cs" />
+    <Compile Include="ExcerciseTwo\PrintRecord.cs" />
+    <Compile Include="ExcerciseTwo\PrintUsage.cs" />
+    <Compile Include="ExcerciseTwo\StandardTimeSource.cs" />
+    <Compile Include="ExcerciseTwo\TimeSource.cs" />
+    <Compile Include="ExcerciseTwo\Utils\DateUtil.cs" />
+    <Compile Include="ExcerciseTwo\Utils\DateUtilTest.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
